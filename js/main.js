@@ -5,8 +5,8 @@ const app = new Vue({
     data: {
         userSearch: '',
         showCart: false,
-        cartUrl: '/getBasket.json',
-        catalogUrl: '/catalogData.json',
+        cartUrl: '/cartData',
+        catalogUrl: '/catalogData',
         products: [],
         cartItems: [],
         filtered: [],
@@ -15,45 +15,59 @@ const app = new Vue({
         networkError: false,
     },
     methods: {
-        getProducts(url) {
-            return fetch(url)
+        makePOSTRequest(url, data = {}) {
+            return fetch(url, {
+                    method: "POST",
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data),
+                })
                 .then(result => result.json())
                 .catch(error => {
                     this.networkError = true;
                 })
         },
-        addItem(product) {
-            this.getProducts(`${API}/addToBasket.json`).then(data => {
-                if (data.result === 1) {
-
-                    let find = this.cartItems.find(el => el.id_product === product.id_product);
-                    if (find) {
-                        find.quantity++;
-
-                    } else {
-                        let prod = Object.assign({ quantity: 1 }, product);
-                        this.cartItems.push(prod)
-
+        makeGETRequest(url) {
+            return fetch(url)
+                .then(result => result.json())
+                .catch(error => {
+                    if (url == this.catalogUrl) {
+                        this.networkError = true;
                     }
-                } else {
+
+                })
+        },
+        makeDeleteRequest(url, data = {}) {
+            return fetch(url, {
+                    method: "DELETE",
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data),
+
+                }).then(result => result.json())
+                .catch(error => {
+                    this.networkError = true;
+                })
+
+        },
+        addItem(product) {
+            this.makePOSTRequest(`/addToCart`, product).then(data => {
+                if (data.result === 0) {
                     alert('Error');
                 }
+                this.cartItems = [...data.list];
+
             });
         },
         deleteItem(product) {
-            this.getProducts(`${API}/deleteFromBasket.json`)
+            this.makeDeleteRequest(`/deleteItem`, product)
                 .then(data => {
-                    if (data.result === 1) {
-
-                        if (product.quantity > 1) { // если товара > 1, то уменьшаем количество на 1
-                            product.quantity--;
-
-                        } else { // удаляем
-                            this.cartItems.splice(this.cartItems.indexOf(product), 1)
-                        }
-                    } else {
+                    if (data.result === 0) {
                         alert('Error');
                     }
+                    this.cartItems = [...data.list];
                 })
         },
 
@@ -61,21 +75,25 @@ const app = new Vue({
             let regexp = new RegExp(value, 'i');
             this.filtered = this.products.filter(el => regexp.test(el.product_name));
         },
+        fillCartList() {
+            this.makeGETRequest(`${this.catalogUrl}`)
+                .then(data => {
+                    for (let el of data) {
+                        this.products.push(el);
+                        this.filtered.push(el);
+                    }
+                }).catch(error => {
+                    //console.log(error);
+
+                });
+        }
+
     },
     mounted() {
-        this.getProducts(`${API}/${this.catalogUrl}`)
+        this.fillCartList();
+        this.makeGETRequest(`${this.cartUrl}`)
             .then(data => {
                 for (let el of data) {
-                    this.products.push(el);
-                    this.filtered.push(el);
-                }
-            }).catch(error => {
-                console.log(error);
-
-            });
-        this.getProducts(`${API}/${this.cartUrl}`)
-            .then(data => {
-                for (let el of data.contents) {
                     this.cartItems.push(el);
                 }
 

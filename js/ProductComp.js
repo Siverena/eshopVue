@@ -1,26 +1,24 @@
 Vue.component('goods-list', {
-    props: ['products', 'img', 'netErr'],
+    props: ['products', 'netErr'],
     template: `
      <div class="products">
      <error-msg :net-err = "netErr"></error-msg>
         <goods-item v-if = "products.length" v-for="product of products" 
         :product="product" 
-        :img="img"  
         :key="product.id_product"
         ></goods-item>
      </div> 
     `,
-    mounted() {
-        // console.log(this.products);
-        // console.log(this.products.length);
-    }
+    mounted() {}
 
 });
 Vue.component('goods-item', {
-    props: ['product', 'img'],
+    props: ['product'],
     template: `
         <div class="product-item">
-            <img :src="img" alt="Some img">
+        <div class="product-item__img-wrap">
+            <img :src="product.img"alt="Some img" class="product-img">
+            </div>
             <div class="desc">
                 <h3>{{product.product_name}}</h3>
                 <p>{{product.price}} $</p>
@@ -29,6 +27,8 @@ Vue.component('goods-item', {
         </div>
     `,
     mounted() {
-        // console.log(this.product);
+        console.log(this.product);
+        console.log(this.product.img);
+
     }
 });
