@@ -1,12 +1,11 @@
 Vue.component('cart-list', {
-    props: ['products', 'img'],
+    props: ['products'],
     template: `
     <div class="cart-block "   > 
     <p v-if="!products.length">Корзина пуста</p>
    
         <cart-item v-for="product of products" 
         :item="product" 
-        :img="img"  
         :key="product.id_product"
         ></cart-item>
 
@@ -18,11 +17,13 @@ Vue.component('cart-list', {
 
 });
 Vue.component('cart-item', {
-    props: ['item', 'img'],
+    props: ['item'],
     template: `
     <div class="cart-item" :key="item.id_product">
         <div class="product-bio">
-            <img :src="img" alt="Some image">
+            <div class="product-bio__img-wrap">
+                <img :src="item.img" alt="Some image">
+            </div>
             <div class="product-desc">
                 <p class="product-title">{{item.product_name}}</p>
                 <p class="product-quantity">Количество: {{item.quantity}}</p>

@@ -1,0 +1,342 @@
+[
+	{
+		"action": "add to cart",
+		"itemName": "Телевизор",
+		"date": "2022-5-1 16:39:14"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Телевизор",
+		"date": "2022-5-1 16:39:14"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Телевизор",
+		"date": "2022-5-1 16:39:14"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:39:18"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:39:18"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:39:18"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Колонки",
+		"date": "2022-5-1 16:40:40"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Колонки",
+		"date": "2022-5-1 16:40:40"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Колонки",
+		"date": "2022-5-1 16:41:07"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Телевизор",
+		"date": "2022-5-1 16:41:09"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Телевизор",
+		"date": "2022-5-1 16:41:09"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Телевизор",
+		"date": "2022-5-1 16:41:09"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Телевизор",
+		"date": "2022-5-1 16:41:10"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Телефон",
+		"date": "2022-5-1 16:41:13"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Телефон",
+		"date": "2022-5-1 16:41:14"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:41:27"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:41:32"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:41:32"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:41:32"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Колонки",
+		"date": "2022-5-1 16:42:05"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Наушники",
+		"date": "2022-5-1 16:42:06"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Наушники",
+		"date": "2022-5-1 16:42:07"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Наушники",
+		"date": "2022-5-1 16:42:07"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Ноутбук",
+		"date": "2022-5-1 16:42:07"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Ноутбук",
+		"date": "2022-5-1 16:42:08"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Телевизор",
+		"date": "2022-5-1 16:42:09"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Телевизор",
+		"date": "2022-5-1 16:42:10"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Телевизор",
+		"date": "2022-5-1 16:42:10"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Телевизор",
+		"date": "2022-5-1 16:42:10"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Телевизор",
+		"date": "2022-5-1 16:42:10"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Телевизор",
+		"date": "2022-5-1 16:42:10"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Телевизор",
+		"date": "2022-5-1 16:42:11"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:42:11"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:42:11"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:42:11"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:42:11"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:42:12"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:42:12"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:42:12"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Колонки",
+		"date": "2022-5-1 16:42:12"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Колонки",
+		"date": "2022-5-1 16:42:12"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Колонки",
+		"date": "2022-5-1 16:42:13"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Колонки",
+		"date": "2022-5-1 16:42:13"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Телефон",
+		"date": "2022-5-1 16:42:13"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Телефон",
+		"date": "2022-5-1 16:42:13"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Наушники",
+		"date": "2022-5-1 16:42:13"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Наушники",
+		"date": "2022-5-1 16:42:14"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Наушники",
+		"date": "2022-5-1 16:42:14"
+	},
+	{
+		"action": "delete from cart",
+		"itemName": "Ноутбук",
+		"date": "2022-5-1 16:42:14"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Телевизор",
+		"date": "2022-5-1 16:43:47"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Телевизор",
+		"date": "2022-5-1 16:43:47"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Телевизор",
+		"date": "2022-5-1 16:43:47"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:43:48"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:43:48"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:43:49"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:43:49"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:43:49"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:43:49"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:43:50"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:43:50"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Планшет",
+		"date": "2022-5-1 16:43:50"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Наушники",
+		"date": "2022-5-1 16:46:27"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Наушники",
+		"date": "2022-5-1 16:46:27"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Наушники",
+		"date": "2022-5-1 16:46:27"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Наушники",
+		"date": "2022-5-1 16:46:27"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Мышка",
+		"date": "2022-5-1 16:46:28"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Мышка",
+		"date": "2022-5-1 16:46:29"
+	},
+	{
+		"action": "add to cart",
+		"itemName": "Мышка",
+		"date": "2022-5-1 16:46:29"
+	}
+]

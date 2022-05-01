@@ -1,0 +1,37 @@
+[
+	{
+		"quantity": 1,
+		"id_product": 123,
+		"product_name": "Ноутбук",
+		"price": 45600,
+		"img": "./img/catalog/notebook.jpg"
+	},
+	{
+		"quantity": 3,
+		"id_product": 456,
+		"product_name": "Телевизор",
+		"price": 10480,
+		"img": "./img/catalog/tv.jpg"
+	},
+	{
+		"quantity": 9,
+		"id_product": 545612,
+		"product_name": "Планшет",
+		"price": 3000,
+		"img": "./img/catalog/tablet.jpg"
+	},
+	{
+		"quantity": 4,
+		"id_product": 5456,
+		"product_name": "Наушники",
+		"price": 14510,
+		"img": "./img/catalog/headphones.jpg"
+	},
+	{
+		"quantity": 3,
+		"id_product": 4551,
+		"product_name": "Мышка",
+		"price": 11000,
+		"img": "./img/catalog/mouse.jpg"
+	}
+]
