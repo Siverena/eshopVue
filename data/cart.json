@@ -21,7 +21,7 @@
 		"img": "./img/catalog/tablet.jpg"
 	},
 	{
-		"quantity": 4,
+		"quantity": 3,
 		"id_product": 5456,
 		"product_name": "Наушники",
 		"price": 14510,
@@ -33,5 +33,12 @@
 		"product_name": "Мышка",
 		"price": 11000,
 		"img": "./img/catalog/mouse.jpg"
+	},
+	{
+		"quantity": 1,
+		"id_product": 87486512,
+		"product_name": "Колонки",
+		"price": 55600,
+		"img": "./img/catalog/soundbar.png"
 	}
 ]
